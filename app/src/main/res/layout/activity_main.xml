@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diak.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="Write down your name!"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="37dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editT_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:hint="Írd be a nevet!"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editT_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="SUBMIT"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+</RelativeLayout>
