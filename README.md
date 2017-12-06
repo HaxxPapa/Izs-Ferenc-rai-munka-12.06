@@ -1,0 +1,1 @@
+Izso_Ferenc_2P14S_orai_munka_12_06
